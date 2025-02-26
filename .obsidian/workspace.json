@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "b4665742b97f018a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bef064a2cc37e17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86427aa40713d1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e11e28a6f8ab5145",
+    "type": "split",
+    "children": [
+      {
+        "id": "8926f54fbede4eaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47d12f97ea5695c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7e097b03491051b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"aliases\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "3dbc245ce3037bb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.5
+  },
+  "right": {
+    "id": "fdc9c9a5389934c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a47de57efcef4c43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32c1d65c05a4610c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2e2f698f7dd21797",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "dba83a685249151a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "aea83ea418c17374",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          },
+          {
+            "id": "66dead0c569b3de1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "86427aa40713d1ff",
+  "lastOpenFiles": [
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+    "README.md",
+    "ThoughtFragments/2025",
+    "Note/层次结构.md",
+    "未命名",
+    "KnowledgeMatrix/ComputerScience/NetworkSecurity",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence",
+    "KnowledgeMatrix/ComputerScience",
+    "KnowledgeMaps",
+    "ThoughtFragments",
+    "KnowledgeMatrix",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/excalidraw.excalidraw",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/RNN.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/DFF.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/FF.png",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/GPT-3参数.png",
+    "Note/LLM/什么是大语言模型/attachments/Transformer架构(1).gif",
+    "Note/LLM/什么是大语言模型/attachments/Transformer架构.gif",
+    "什么是LLM大语言模型.assets/Transformer架构.gif.md",
+    "参数多.md",
+    "[[2005.14165].md",
+    "2025-02-25.md",
+    "欢迎.md",
+    "创建链接1.md",
+    "2025-02-21.md"
+  ]
+}
