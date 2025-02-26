@@ -1,8 +1,8 @@
 # MemoryMatrix
 
-![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![Powered by: Obsidian](https://img.shields.io/badge/Powered%20by-Obsidian-purple.svg)
+[![Powered by: Obsidian](https://img.shields.io/badge/Powered%20by-Obsidian-purple.svg)](https://obsidian.md)
 
 > 知识不是力量 , 知识的组织才是力量 .
 

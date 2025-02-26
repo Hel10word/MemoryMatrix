@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "DeepSeek"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 334.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "DeepSeek 的大纲"
             }
           },
           {
@@ -192,6 +192,7 @@
   },
   "active": "86427aa40713d1ff",
   "lastOpenFiles": [
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "README.md",
     "ThoughtFragments/2025",
@@ -204,7 +205,6 @@
     "KnowledgeMaps",
     "ThoughtFragments",
     "KnowledgeMatrix",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
