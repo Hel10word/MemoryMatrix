@@ -1,11 +1,18 @@
 ---
+id: 76842627-6736-45f1-8a27-c077cd62c920
 aliases:
+  - 76842627-6736-45f1-8a27-c077cd62c920
   - DeepSeek
+title: DeepSeek
+created: 2025-02-26T17:22
+author: hel10word
+status: published
 tags:
   - DeepSeek
   - LLM
+summary: 这是一段简短的摘要，描述文档的主要内容
+toc: true
 ---
-
 
 让 DeepSeek 热度暴涨的是 在 2025 年 1月20 日 发布的 [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1 )  
 

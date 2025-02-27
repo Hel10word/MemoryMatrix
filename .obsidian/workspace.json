@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5bef064a2cc37e17",
+        "id": "f561dd98212cddfe",
         "type": "tabs",
         "children": [
           {
-            "id": "86427aa40713d1ff",
+            "id": "ca0f6a66387100bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DeepSeek"
+              "title": "什么是大语言模型"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 252.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DeepSeek 的大纲"
+              "title": "什么是大语言模型 的大纲"
             }
           },
           {
@@ -178,37 +178,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "86427aa40713d1ff",
+  "active": "ca0f6a66387100bc",
   "lastOpenFiles": [
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
     "README.md",
+    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
+    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
+    "LifeDashboard/TODO/TODO.md",
+    "_templates/TEMPLATE.md",
+    "未命名.md",
+    "_scripts/getUUID.js",
+    "_scripts",
+    "ThoughtFragments/2025-02-26.md",
+    "ThoughtFragments/未命名.md",
+    "_templates",
+    "123.md",
+    "11.md",
+    "Demo.md",
+    "2024-06-08.md",
+    "WisdomVault/亚瑟·阿伦的36个问题",
+    "WisdomVault/左耳朵耗子",
+    "LifeDashboard/TODO",
+    "LifeDashboard",
+    "WisdomVault",
     "ThoughtFragments/2025",
     "Note/层次结构.md",
-    "未命名",
     "KnowledgeMatrix/ComputerScience/NetworkSecurity",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence",
-    "KnowledgeMatrix/ComputerScience",
-    "KnowledgeMaps",
-    "ThoughtFragments",
-    "KnowledgeMatrix",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/excalidraw.excalidraw",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/RNN.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/DFF.png",
