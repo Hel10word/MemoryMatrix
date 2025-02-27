@@ -57,5 +57,22 @@ author: hel10word
 status: <% status %>
 tags:
 summary: <% await tp.system.prompt("请输入摘要（50字内）", "这是一段简短的摘要，描述文档的主要内容") %>
-toc: true
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+可使用 [![](https://img.shields.io/badge/Excalidraw-CCCCFF?style=for-the-badge&logo=excalidraw&logoColor=333&logoWidth=20&labelColor=CCCCFF)](https://excalidraw.com/) 工具打开本文的 [原型图文件](attachments/excalidraw.excalidraw)

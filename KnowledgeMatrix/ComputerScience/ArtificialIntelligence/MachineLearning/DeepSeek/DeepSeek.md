@@ -120,4 +120,4 @@ DeepSeek 从 V2 开始 , 就独创了一种全新的 [MLA](https://arxiv.org/abs
 
 ---
 
-可使用 [Excalidraw](https://excalidraw.com/) 工具打开本文的 [原型图文件](attachments/excalidraw.excalidraw)
+可使用 [![](https://img.shields.io/badge/Excalidraw-CCCCFF?style=for-the-badge&logo=excalidraw&logoColor=333&logoWidth=20&labelColor=CCCCFF)](https://excalidraw.com/) 工具打开本文的 [原型图文件](attachments/excalidraw.excalidraw)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f561dd98212cddfe",
+        "id": "9d89fb914a787a21",
         "type": "tabs",
         "children": [
           {
-            "id": "ca0f6a66387100bc",
+            "id": "01f883c753aac4ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "什么是大语言模型"
+              "title": "网络数据包封装与传输"
+            }
+          },
+          {
+            "id": "c0e61e52d5027e97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "网络数据包封装与传输"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 344.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -150,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "什么是大语言模型 的大纲"
+              "title": "网络数据包封装与传输 的大纲"
             }
           },
           {
@@ -178,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,49 +214,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ca0f6a66387100bc",
+  "active": "c0e61e52d5027e97",
   "lastOpenFiles": [
+    "LifeDashboard/TODO/TODO.md",
+    "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
+    "WisdomVault/武汉2024年强酸电池行情/attachments/武汉2024年强酸电池行情.xlsx",
+    "WisdomVault/武汉2024年强酸电池行情/attachments/铅酸电池.xlsx",
+    "WisdomVault/武汉2024年强酸电池行情/attachments",
+    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
+    "WisdomVault/武汉2024年强酸电池行情",
+    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+    "README.md",
+    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "README.md",
-    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
-    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
-    "LifeDashboard/TODO/TODO.md",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据封装过程详解.png",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据包的封装.png",
+    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments/一个简单的HTTPS请求过程.png",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/excalidraw.excalidraw",
     "_templates/TEMPLATE.md",
+    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments/excalidraw.excalidraw",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/无标题-2024-11-07-1729.excalidraw",
+    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/简单的HTTPS请求过程.png",
+    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程",
+    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/网络模型.png",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/OSI模型.png",
+    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "未命名.md",
-    "_scripts/getUUID.js",
-    "_scripts",
     "ThoughtFragments/2025-02-26.md",
     "ThoughtFragments/未命名.md",
-    "_templates",
     "123.md",
     "11.md",
     "Demo.md",
     "2024-06-08.md",
-    "WisdomVault/亚瑟·阿伦的36个问题",
-    "WisdomVault/左耳朵耗子",
-    "LifeDashboard/TODO",
-    "LifeDashboard",
-    "WisdomVault",
-    "ThoughtFragments/2025",
     "Note/层次结构.md",
-    "KnowledgeMatrix/ComputerScience/NetworkSecurity",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/RNN.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/DFF.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/FF.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/GPT-3参数.png",
-    "Note/LLM/什么是大语言模型/attachments/Transformer架构(1).gif",
-    "Note/LLM/什么是大语言模型/attachments/Transformer架构.gif",
     "什么是LLM大语言模型.assets/Transformer架构.gif.md",
     "参数多.md",
     "[[2005.14165].md",
     "2025-02-25.md",
     "欢迎.md",
-    "创建链接1.md",
-    "2025-02-21.md"
+    "创建链接1.md"
   ]
 }

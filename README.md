@@ -1,12 +1,15 @@
 # MemoryMatrix
 
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-[![Powered by: Obsidian](https://img.shields.io/badge/Powered%20by-Obsidian-purple.svg)](https://obsidian.md)
+**MemoryMatrix** 是一个个人知识管理系统 , 采用结构化与关联式相结合的方法存储和组织知识 , 思想和灵感 . 这个数字大脑旨在捕捉思维碎片 , 构建知识网络 , 并使信息可被高效检索 , 连接和扩展 .
 
 > 知识不是力量 , 知识的组织才是力量 .
 
-**MemoryMatrix** 是一个个人知识管理系统 , 采用结构化与关联式相结合的方法存储和组织知识 , 思想和灵感 . 这个数字大脑旨在捕捉思维碎片 , 构建知识网络 , 并使信息可被高效检索 , 连接和扩展 .
+
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![Powered by: Obsidian](https://img.shields.io/badge/Powered%20by-Obsidian-purple.svg)](https://github.com/obsidianmd/obsidian-releases)
+
+[![Powered by: Excalidraw](https://img.shields.io/badge/Powered%20by-Excalidraw-CCCCFF.svg)](https://github.com/excalidraw/excalidraw)
 
 ## ✨ 核心特性
 
