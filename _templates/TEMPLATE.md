@@ -1,7 +1,7 @@
 ---
 <%*
 /* 模板版本：1.2 | 最后更新：2025-02-27 */
-
+// 可以通过 https://www.uuidgenerator.net/version4 获取 或 https://www.uuidgenerator.net/api/guid
 // 生成UUID（兼容模式）
 let uuid;
 try {
@@ -20,16 +20,19 @@ const status = await (async () => {
         { 
             display: "📝 草稿 | 可继续编辑", 
             value: "draft",
+            tags: "#status/draft",
             hint: "初始创作阶段"
         },
         {
             display: "🚀 已发布 | 对外可见",
             value: "published",
+            tags: "#status/published",
             hint: "完成并公开的内容"
         },
         {
             display: "🗄️ 已归档 | 只读状态",
             value: "archived",
+            tags: "#status/archived",
             hint: "历史文档封存"
         }
     ];
@@ -58,7 +61,7 @@ status: <% status %>
 tags:
 summary: <% await tp.system.prompt("请输入摘要（50字内）", "这是一段简短的摘要，描述文档的主要内容") %>
 ---
-
+# <% tp.file.title %>
 
 
 

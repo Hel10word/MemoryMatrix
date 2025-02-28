@@ -8,8 +8,8 @@ created: 2025-02-26T17:22
 author: hel10word
 status: published
 tags:
-  - DeepSeek
-  - LLM
+  - deep-seek
+  - llm
 summary: 这是一段简短的摘要，描述文档的主要内容
 toc: true
 ---

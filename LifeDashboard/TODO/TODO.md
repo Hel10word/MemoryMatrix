@@ -7,12 +7,16 @@ title: TODO
 created: 2025-02-26T18:13
 author: hel10word
 status: draft
-tags:
-  - TODO
+tags: 
 summary: TODO
-toc: true
 ---
 
+学习技术的时候 多问自己问题 : 
+
+- 这个技术解决了什么问题 ? 为什么别的同类技术做不到 ?
+- 为什么是这样解决的 ? 有没有更好的方式 ?
+
+​
 ### Java 开发
 
 - [ ]  掌握 Java 语言高级特性 : 掌握多线程开发 , 网络编程 , 反射 , 字节码增强 , 常用类库原理 ,

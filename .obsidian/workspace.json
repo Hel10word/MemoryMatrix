@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9d89fb914a787a21",
+        "id": "2daf6156c6f8cdef",
         "type": "tabs",
         "children": [
           {
-            "id": "01f883c753aac4ce",
+            "id": "f9b46d3fa816d76c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "_templates/TEMPLATE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "网络数据包封装与传输"
+              "title": "TEMPLATE"
             }
           },
           {
-            "id": "c0e61e52d5027e97",
+            "id": "e82119f45d8e750c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "ThoughtFragments/2025-02-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "网络数据包封装与传输"
+              "title": "2025-02-28"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#status/review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 348.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -129,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ThoughtFragments/2025-02-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "2025-02-28 的反向链接列表"
             }
           },
           {
@@ -147,11 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ThoughtFragments/2025-02-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "2025-02-28 的出链列表"
             }
           },
           {
@@ -175,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "ThoughtFragments/2025-02-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "网络数据包封装与传输 的大纲"
+              "title": "2025-02-28 的大纲"
             }
           },
           {
@@ -198,12 +200,11 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,52 +215,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c0e61e52d5027e97",
+  "active": "e82119f45d8e750c",
   "lastOpenFiles": [
+    "KnowledgeMaps/标签体系.md",
+    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "LifeDashboard/TODO/TODO.md",
-    "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
-    "WisdomVault/武汉2024年强酸电池行情/attachments/武汉2024年强酸电池行情.xlsx",
-    "WisdomVault/武汉2024年强酸电池行情/attachments/铅酸电池.xlsx",
-    "WisdomVault/武汉2024年强酸电池行情/attachments",
     "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
-    "WisdomVault/武汉2024年强酸电池行情",
-    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
     "README.md",
-    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
+    "KnowledgeMaps/Cryptography/Public-keyCryptography/Public-keyCryptography.md",
+    "output.txt",
+    "_templates/TEMPLATE.md",
+    "KnowledgeMaps/Cryptography/Cryptography.md",
+    "KnowledgeMaps/Cryptography/Public-keyCryptography",
+    "KnowledgeMaps/Cryptography",
+    "KnowledgeMaps/密码学",
+    "().md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/密钥交换算法/未命名",
+    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/SRP",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/ECDH",
+    "ThoughtFragments/2025-02-28.md",
+    "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
+    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
+    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据封装过程详解.png",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据包的封装.png",
     "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments/一个简单的HTTPS请求过程.png",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/excalidraw.excalidraw",
-    "_templates/TEMPLATE.md",
-    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments/excalidraw.excalidraw",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/无标题-2024-11-07-1729.excalidraw",
-    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/简单的HTTPS请求过程.png",
-    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程",
-    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/网络模型.png",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/OSI模型.png",
-    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "未命名.md",
     "ThoughtFragments/2025-02-26.md",
     "ThoughtFragments/未命名.md",
     "123.md",
     "11.md",
-    "Demo.md",
-    "2024-06-08.md",
-    "Note/层次结构.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png",
-    "什么是LLM大语言模型.assets/Transformer架构.gif.md",
-    "参数多.md",
-    "[[2005.14165].md",
-    "2025-02-25.md",
-    "欢迎.md",
-    "创建链接1.md"
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png"
   ]
 }
