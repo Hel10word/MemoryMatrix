@@ -80,6 +80,16 @@ KR = (2753,3233)
 
 2. 公式推导 : $\begin{align}C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\&=M^{e\cdot d}\ mod\ n -M\\&=M^{K\cdot \varphi(n) + 1}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)})^{K}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n\\\end{align}$
 
+$$
+\begin{aligned}
+C^{d}\ \text{mod}\ n - M &= (M^{e}\ \text{mod}\ n)^{d}\ \text{mod}\ n -M\\
+&=M^{e\cdot d}\ \text{mod}\ n -M\\
+&=M^{K\cdot \varphi(n) + 1}\ \text{mod}\ n -M\\
+&=M\cdot (M^{\varphi(n)})^{K}\ \text{mod}\ n -M\\
+&=M\cdot (M^{\varphi(n)\cdot K}-1)\ \text{mod}\ n
+\end{aligned}
+$$
+
 
 3.  这儿需要引入一个 [欧拉定理](https://en.wikipedia.org/wiki/Euler%27s_totient_function)  : 若 `n`,`a` 为正整数 , 且 `n`,`a` 互质 , 则有   $a^{\varphi(n)}\equiv 1\ (mod\ n)$   , 也可写成    $a^{\varphi(n)}\ mod\ n=1$
     1.  若 `a` 与 `n` 互质 , 且相差很大的时候 , 该公式也可以看作   $a^{\varphi(n)} = 1$  
