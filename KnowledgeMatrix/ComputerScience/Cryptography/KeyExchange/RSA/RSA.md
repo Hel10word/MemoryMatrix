@@ -40,7 +40,7 @@ summary: 这是一段简短的摘要，描述文档的主要内容
     -   特性一 : 如果 `n` 为素数 , 则 $\varphi(n) = n-1$
     -   特性二 : 如果 `n` 可以分解成 2 个互质的整数之积 , 那么 n 的欧拉函数等于这两个因子的欧拉函数之积 . 
         -   若 `p`、`q` 互质 , 则有 : $\varphi(p\cdot q)=\varphi(p)\cdot \varphi(q)$
--   $ba\equiv 1(\ mod\ n) $ : **模反元素** 如果两个正整数 `a` 和 `n` 互质 , 那么一定可以找到 整数 `b`  , 使得 `b·a-1` 被 `n` 整除 . 则 `b` 就叫做 `a` 对于 `n` 的模方元素 . 
+-   $ba\equiv 1(\ mod\ n)$ : **模反元素** 如果两个正整数 `a` 和 `n` 互质 , 那么一定可以找到 整数 `b`  , 使得 `b·a-1` 被 `n` 整除 . 则 `b` 就叫做 `a` 对于 `n` 的模方元素 . 
     -   也就是说有 : $({\color{Red} b}\cdot a)-1=K\cdot n$
     -   也可以记作 : ${\color{Red} b}\cdot a\ mod\ n=1$
         -   本步骤中进行相应参数的映射 :  ${\color{Red} b} => d\ ,\ a => e\ ,\ n => \varphi(n)$
@@ -83,13 +83,13 @@ KR = (2753,3233)
 
 
 2.    公式推导 : 
-$$\begin{align}
+$\begin{align}
 C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\
 &=M^{e\cdot d}\ mod\ n -M\\
 &=M^{K\cdot \varphi(n) + 1}\ mod\ n -M\\
 &=M\cdot (M^{\varphi(n)})^{K}\ mod\ n -M\\
 &=M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n\\
-\end{align}$$
+\end{align}$
 
 
 
