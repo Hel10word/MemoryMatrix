@@ -20,16 +20,16 @@ summary: 这是一段简短的摘要，描述文档的主要内容
 
 [DH](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) (Diffie-Hellman) , 该算法主要用来实现**安全的**密钥交换 , 它可以做到在通讯双方在完全没有对方任何预先信息的条件下 , 通过不安全的信道 , 创建一个双方共享的私有密钥 . 
 
-DH 算法缺点：**本身不支持认证** . 常与 ([RSA](../RSA/RSA.md) , DSA] , ECDSA) 等配合——靠签名算法来帮忙进行身份验证 , 当 DH 算法与 [RSA](../RSA/RSA.md) 配合使用 , 也成为“DH-RSA” . 
+DH 算法缺点：**本身不支持认证** . 常与 ([RSA](../RSA/RSA.md) , DSA , ECDSA) 等配合——靠签名算法来帮忙进行身份验证 , 当 DH 算法与 [RSA](../RSA/RSA.md) 配合使用 , 也成为“DH-RSA” . 
 
 
 
 #### 算法步骤
 
 1.  通讯双方 (张三、李四) 需要先约定好两个对外公开的参数：一个素数 `p` 作为模数 , 一个素数 `g` 作为基数 . 
-2.  张三 , 需要想好一个自然数 `a` 作为私钥 (**不能公开**)  , 然后计算 ==$$A=g^{a}\ mod\ p$$== 作为自己的公钥 (**可以公开**)  . 
-3.  李四 , 需要想好一个自然数 `b` 作为私钥 (**不能公开**)  , 然后计算 ==$$B=g^{b}\ mod\ p$$== 作为自己的公钥 (**可以公开**)  . 
-4.  张三和李四互相交换各自的公钥 A、B , 然后张三计算出 ==$$K=B^{a}\ mod\ p$$==  , 李四计算出 ==$$K=A^{b}\ mod\ p$$==  . 
+2.  张三 , 需要想好一个自然数 `a` 作为私钥 (**不能公开**)  , 然后计算  $A=g^{a}\ mod\ p$  作为自己的公钥 (**可以公开**)  . 
+3.  李四 , 需要想好一个自然数 `b` 作为私钥 (**不能公开**)  , 然后计算  $B=g^{b}\ mod\ p$  作为自己的公钥 (**可以公开**)  . 
+4.  张三和李四互相交换各自的公钥 A、B , 然后张三计算出  $K=B^{a}\ mod\ p$  , 李四计算出  $K=A^{b}\ mod\ p$  . 
 
 
 
@@ -87,20 +87,22 @@ print((A**b) % p)  # 此处输出 47
 
 
 3.  公式证明 : 
-$$\begin{align}
+
+$\begin{align}
     g^{a \cdot b}\ mod\ p&=(\underset{b个}{\underbrace{g^{a}\cdot g^{a}\cdots \ g^{a}}})\ mod\ p\\
     &=(\underset{b个}{\underbrace{g^{a}\ mod\ p\ \cdot g^{a}\ mod\ p\ \cdots \ g^{a}\ mod\ p}})\ mod\ p\\
     &=(g^{a}\ mod\ p)^{b}\ mod\ p
-    \end{align}$$
+    \end{align}$
 
 
 
 1.  算法验证 : 
-$$\begin{align}
+
+$\begin{align}
     K&=B^{a}\ mod\ p=A^{b}\ mod\ p \\
     &=(g^{b}\ mod\ p)^{a}\ mod\ p = (g^{a}\ mod\ p)^{b}\ mod\ p \\
     &=g^{b\cdot a}\ mod \ p=g^{a\cdot b}\ mod \ p
-    \end{align}$$
+    \end{align}$
 
 
 
@@ -135,7 +137,7 @@ $$\begin{align}
 
 #### DH 的变种 —— 基于 椭圆曲线 的ECDH
 
-DH 算法有一个变种 ECDH (Elliptic Curve Diffie-Hellman)  , 它与 DH 类似 , 区别在于 DH 算法依赖的是——求解**离散对数问题**的困难；ECDH 算法依赖的是——求解**椭圆曲线离散对数问题**的困难 . 
+DH 算法有一个变种 ECDH (Elliptic Curve Diffie-Hellman) , 它与 DH 类似 , 区别在于 DH 算法依赖的是——求解**离散对数问题**的困难 ; ECDH 算法依赖的是——求解**椭圆曲线离散对数问题**的困难 . 
 
 
 

@@ -36,14 +36,14 @@ summary: 这是一段简短的摘要，描述文档的主要内容
 | * | 使用公钥对明文 M 进行 **加密** | $M^{e}\ mod\ n = C$ |
 | * | 使用私钥对密文 C 进行 **解密** | $C^{d}\ mod\ n = M$ |
 
--   $\varphi(n)$  ：**欧拉函数** 是小于 `n` 的正整数中与 `n` 互质的数的数目 . 
-    -   特性一：如果 `n` 为素数 , 则 $\varphi(n) = n-1$
-    -   特性二：如果 `n` 可以分解成 2 个互质的整数之积 , 那么 n 的欧拉函数等于这两个因子的欧拉函数之积 . 
-        -   若 `p`、`q` 互质 , 则有：$\varphi(p\cdot q)=\varphi(p)\cdot \varphi(q)$
--   $ba\equiv 1(\ mod\ n) $：**模反元素** 如果两个正整数 `a` 和 `n` 互质 , 那么一定可以找到 整数 `b`  , 使得 `b·a-1` 被 `n` 整除 . 则 `b` 就叫做 `a` 对于 `n` 的模方元素 . 
-    -   也就是说有：$({\color{Red} b}\cdot a)-1=K\cdot n$
-    -   也可以记作：${\color{Red} b}\cdot a\ mod\ n=1$
-        -   本步骤中进行相应参数的映射： ${\color{Red} b} => d\ ,\ a => e\ ,\ n => \varphi(n)$
+-   $\varphi(n)$   : **欧拉函数** 是小于 `n` 的正整数中与 `n` 互质的数的数目 . 
+    -   特性一 : 如果 `n` 为素数 , 则 $\varphi(n) = n-1$
+    -   特性二 : 如果 `n` 可以分解成 2 个互质的整数之积 , 那么 n 的欧拉函数等于这两个因子的欧拉函数之积 . 
+        -   若 `p`、`q` 互质 , 则有 : $\varphi(p\cdot q)=\varphi(p)\cdot \varphi(q)$
+-   $ba\equiv 1(\ mod\ n) $ : **模反元素** 如果两个正整数 `a` 和 `n` 互质 , 那么一定可以找到 整数 `b`  , 使得 `b·a-1` 被 `n` 整除 . 则 `b` 就叫做 `a` 对于 `n` 的模方元素 . 
+    -   也就是说有 : $({\color{Red} b}\cdot a)-1=K\cdot n$
+    -   也可以记作 : ${\color{Red} b}\cdot a\ mod\ n=1$
+        -   本步骤中进行相应参数的映射 :  ${\color{Red} b} => d\ ,\ a => e\ ,\ n => \varphi(n)$
         -   $(d\cdot e)-1=K\cdot \varphi(n)$
         -   $d\cdot e\ mod\ \varphi(n)=1$
 
@@ -77,7 +77,7 @@ KR = (2753,3233)
 
 #### 算法证明
 
-1.  根据 加密 ：$M^{e}\ mod\ n = C$      解密：$C^{d}\ mod\ n = M$ ；因此我们只需要证明  $C^{d}\ mod\ n - M = 0$
+1.  根据 加密  : $M^{e}\ mod\ n = C$      解密 : $C^{d}\ mod\ n = M$ ；因此我们只需要证明  $C^{d}\ mod\ n - M = 0$
 
 
 
@@ -93,9 +93,9 @@ C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\
 
 
 
-1.  这儿需要引入一个 [欧拉定理](https://en.wikipedia.org/wiki/Euler%27s_totient_function) ：若 `n`,`a` 为正整数 , 且 `n`,`a` 互质 , 则有   $a^{\varphi(n)}\equiv 1\ (mod\ n)$   , 也可写成    $a^{\varphi(n)}\ mod\ n=1$
+1.  这儿需要引入一个 [欧拉定理](https://en.wikipedia.org/wiki/Euler%27s_totient_function)  : 若 `n`,`a` 为正整数 , 且 `n`,`a` 互质 , 则有   $a^{\varphi(n)}\equiv 1\ (mod\ n)$   , 也可写成    $a^{\varphi(n)}\ mod\ n=1$
     1.  若 `a` 与 `n` 互质 , 且相差很大的时候 , 该公式也可以看作   $a^{\varphi(n)} = 1$  
-    2.  根据欧拉定理衍生 , 若 `p` 为 素数 , 则根据 **欧拉函数** 可知 $\varphi(p) = p-1$  , 则有 [费马小定理](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) ：$a^{p-1}\equiv 1\ (mod\ p)$
+    2.  根据欧拉定理衍生 , 若 `p` 为 素数 , 则根据 **欧拉函数** 可知 $\varphi(p) = p-1$  , 则有 [费马小定理](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)  : $a^{p-1}\equiv 1\ (mod\ p)$
 
     
     
@@ -104,12 +104,12 @@ C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\
 
 
 5.  当 `M` 与 `n` **不互质**的时候 , 由于 `M` 比 `n` 小 , 且 `n` 的因子只有 {1 , q , p , n} 四个 , 则一定有正整数 (`H` 或 `Z`) 满足  $M=H\cdot p$ 或者 $M=Z\cdot q$  . 
-    1.  假设 $M=H\cdot p$    , 由于 $M<n=p\cdot q$    , 则有  $H<q$   , 也有 M 与 q 互质 .  
-    2.  根据 费马小定理 可得 ：$M^{q-1}\equiv 1\ mod\ q$
+    1.  假设 $M=H\cdot p$    , 由于 $M<n=p\cdot q$    , 则有  $H<q$ , 也有 M 与 q 互质 .
+    2.  根据 费马小定理 可得  : $M^{q-1}\equiv 1\ mod\ q$
     3.  因为 M 与 q 互质 , 则 M **整数倍次方**也与 q 互质 , 即  $M^{K\cdot (p-1)}$  依然与  q   互质
-    4.  则有：$(M^{K\cdot (p-1)})^{(q-1)}\equiv 1\ mod\ q \equiv M^{K\cdot (p-1)\cdot (q-1)}$
-    5.  上述推导也可写成 ：$M^{K\cdot (p-1)\cdot (q-1)} -1 =M^{K\cdot \varphi(n)}-1= Y\cdot q$   
-    6.  将 1 与 5 推导 带入 公式中： $H\cdot p\cdot (Y\cdot q)mod\ n = H\cdot Y\cdot p\cdot q\ mod\ n = 0$
+    4.  则有 : $(M^{K\cdot (p-1)})^{(q-1)}\equiv 1\ mod\ q \equiv M^{K\cdot (p-1)\cdot (q-1)}$
+    5.  上述推导也可写成  : $M^{K\cdot (p-1)\cdot (q-1)} -1 =M^{K\cdot \varphi(n)}-1= Y\cdot q$
+    6.  将 1 与 5 推导 带入 公式中 :  $H\cdot p\cdot (Y\cdot q)mod\ n = H\cdot Y\cdot p\cdot q\ mod\ n = 0$
     7.  推导证明成立 . 
 
 

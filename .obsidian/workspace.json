@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ThoughtFragments/2025-02-28.md",
+                "file": "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-02-28"
+              "title": "RSA"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ThoughtFragments/2025-02-28.md",
+                "file": "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-02-28 的反向链接列表"
+              "title": "RSA 的反向链接列表"
             }
           },
           {
@@ -215,17 +215,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e82119f45d8e750c",
+  "active": "47d12f97ea5695c9",
   "lastOpenFiles": [
-    "KnowledgeMaps/标签体系.md",
-    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
     "LifeDashboard/TODO/TODO.md",
+    "README.md",
+    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
+    "ThoughtFragments/2025-02-28.md",
+    "KnowledgeMaps/标签体系.md",
     "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
-    "README.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography/Public-keyCryptography.md",
     "output.txt",
     "_templates/TEMPLATE.md",
@@ -243,7 +244,6 @@
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/SRP",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/ECDH",
-    "ThoughtFragments/2025-02-28.md",
     "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
     "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
     "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
