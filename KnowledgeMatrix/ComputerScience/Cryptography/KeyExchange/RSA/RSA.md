@@ -73,34 +73,20 @@ KR = (2753,3233)
 ```
 
 
-
-
 #### 算法证明
 
-1.  根据 加密  : $M^{e}\ mod\ n = C$      解密 : $C^{d}\ mod\ n = M$ ；因此我们只需要证明  $C^{d}\ mod\ n - M = 0$
+1. 根据 加密  : $M^{e}\ mod\ n = C$      解密 : $C^{d}\ mod\ n = M$ ；因此我们只需要证明  $C^{d}\ mod\ n - M = 0$
 
 
+2. 公式推导 : $\begin{align}C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\&=M^{e\cdot d}\ mod\ n -M\\&=M^{K\cdot \varphi(n) + 1}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)})^{K}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n\\\end{align}$
 
 
-2.    公式推导 : 
-$\begin{align}
-C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\
-&=M^{e\cdot d}\ mod\ n -M\\
-&=M^{K\cdot \varphi(n) + 1}\ mod\ n -M\\
-&=M\cdot (M^{\varphi(n)})^{K}\ mod\ n -M\\
-&=M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n\\
-\end{align}$
-
-
-
-1.  这儿需要引入一个 [欧拉定理](https://en.wikipedia.org/wiki/Euler%27s_totient_function)  : 若 `n`,`a` 为正整数 , 且 `n`,`a` 互质 , 则有   $a^{\varphi(n)}\equiv 1\ (mod\ n)$   , 也可写成    $a^{\varphi(n)}\ mod\ n=1$
+3.  这儿需要引入一个 [欧拉定理](https://en.wikipedia.org/wiki/Euler%27s_totient_function)  : 若 `n`,`a` 为正整数 , 且 `n`,`a` 互质 , 则有   $a^{\varphi(n)}\equiv 1\ (mod\ n)$   , 也可写成    $a^{\varphi(n)}\ mod\ n=1$
     1.  若 `a` 与 `n` 互质 , 且相差很大的时候 , 该公式也可以看作   $a^{\varphi(n)} = 1$  
     2.  根据欧拉定理衍生 , 若 `p` 为 素数 , 则根据 **欧拉函数** 可知 $\varphi(p) = p-1$  , 则有 [费马小定理](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)  : $a^{p-1}\equiv 1\ (mod\ p)$
 
-    
-    
-4. 当 `M` 与 `n`  **互质**的时候  , 由于 `M` 比 `n` 小 , 因此可看作  $M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n= M\cdot (1^{K}-1)\ mod\ n = 0$   [Proof using Euler's theorem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#cite_note-25)  , 推导证明成立 . 
 
+4. 当 `M` 与 `n`  **互质**的时候  , 由于 `M` 比 `n` 小 , 因此可看作  $M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n= M\cdot (1^{K}-1)\ mod\ n = 0$   [Proof using Euler's theorem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#cite_note-25)  , 推导证明成立 . 
 
 
 5.  当 `M` 与 `n` **不互质**的时候 , 由于 `M` 比 `n` 小 , 且 `n` 的因子只有 {1 , q , p , n} 四个 , 则一定有正整数 (`H` 或 `Z`) 满足  $M=H\cdot p$ 或者 $M=Z\cdot q$  . 

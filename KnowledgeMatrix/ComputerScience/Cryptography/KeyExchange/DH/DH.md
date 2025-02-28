@@ -76,33 +76,21 @@ print((A**b) % p)  # 此处输出 47
 
 #### 算法证明
 
-1.  DH 算法证明的公式 :     $(g^{a}\ mod\ p)^{b}\ mod\ p = g^{a\cdot b}\ mod \ p$
+1. DH 算法证明的公式 :     $(g^{a}\ mod\ p)^{b}\ mod\ p = g^{a\cdot b}\ mod \ p$
 
 
 
 
-2.  根据 模运算 乘法法则 :    $(a\cdot b)\ mod\ p= (a\ mod\ p\cdot b\ mod\ p)\ mod \ p$
+2. 根据 模运算 乘法法则 :    $(a\cdot b)\ mod\ p= (a\ mod\ p\cdot b\ mod\ p)\ mod \ p$
 
 
 
 
-3.  公式证明 : 
-
-$\begin{align}
-    g^{a \cdot b}\ mod\ p&=(\underset{b个}{\underbrace{g^{a}\cdot g^{a}\cdots \ g^{a}}})\ mod\ p\\
-    &=(\underset{b个}{\underbrace{g^{a}\ mod\ p\ \cdot g^{a}\ mod\ p\ \cdots \ g^{a}\ mod\ p}})\ mod\ p\\
-    &=(g^{a}\ mod\ p)^{b}\ mod\ p
-    \end{align}$
+3. 公式证明 : $\begin{align}    g^{a \cdot b}\ mod\ p&=(\underset{b个}{\underbrace{g^{a}\cdot g^{a}\cdots \ g^{a}}})\ mod\ p\\    &=(\underset{b个}{\underbrace{g^{a}\ mod\ p\ \cdot g^{a}\ mod\ p\ \cdots \ g^{a}\ mod\ p}})\ mod\ p\\    &=(g^{a}\ mod\ p)^{b}\ mod\ p    \end{align}$
 
 
 
-1.  算法验证 : 
-
-$\begin{align}
-    K&=B^{a}\ mod\ p=A^{b}\ mod\ p \\
-    &=(g^{b}\ mod\ p)^{a}\ mod\ p = (g^{a}\ mod\ p)^{b}\ mod\ p \\
-    &=g^{b\cdot a}\ mod \ p=g^{a\cdot b}\ mod \ p
-    \end{align}$
+1. 算法验证 : $\begin{align}    K&=B^{a}\ mod\ p=A^{b}\ mod\ p \\    &=(g^{b}\ mod\ p)^{a}\ mod\ p = (g^{a}\ mod\ p)^{b}\ mod\ p \\    &=g^{b\cdot a}\ mod \ p=g^{a\cdot b}\ mod \ p    \end{align}$
 
 
 
