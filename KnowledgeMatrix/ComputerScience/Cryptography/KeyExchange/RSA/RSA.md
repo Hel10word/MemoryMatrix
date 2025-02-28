@@ -78,8 +78,7 @@ KR = (2753,3233)
 1. 根据 加密  : $M^{e}\ mod\ n = C$      解密 : $C^{d}\ mod\ n = M$ ；因此我们只需要证明  $C^{d}\ mod\ n - M = 0$
 
 
-2. 公式推导 : $\begin{align}C^{d}\ mod\ n - M &= (M^{e}\ mod\ n)^{d}\ mod\ n -M\\&=M^{e\cdot d}\ mod\ n -M\\&=M^{K\cdot \varphi(n) + 1}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)})^{K}\ mod\ n -M\\&=M\cdot (M^{\varphi(n)\cdot K}-1)\ mod\ n\\\end{align}$
-
+2. 公式推导 : 
 $$
 \begin{aligned}
 C^{d}\ \text{mod}\ n - M &= (M^{e}\ \text{mod}\ n)^{d}\ \text{mod}\ n -M\\

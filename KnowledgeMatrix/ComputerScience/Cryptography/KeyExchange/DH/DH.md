@@ -86,11 +86,27 @@ print((A**b) % p)  # 此处输出 47
 
 
 
-3. 公式证明 : $\begin{align}    g^{a \cdot b}\ mod\ p&=(\underset{b个}{\underbrace{g^{a}\cdot g^{a}\cdots \ g^{a}}})\ mod\ p\\    &=(\underset{b个}{\underbrace{g^{a}\ mod\ p\ \cdot g^{a}\ mod\ p\ \cdots \ g^{a}\ mod\ p}})\ mod\ p\\    &=(g^{a}\ mod\ p)^{b}\ mod\ p    \end{align}$
+3. 公式证明：
+
+$$
+\begin{aligned}
+    g^{a \cdot b}\ \text{mod}\ p &= (\underset{b个}{\underbrace{g^{a}\cdot g^{a}\cdots \ g^{a}}})\ \text{mod}\ p \\
+    &= (\underset{b个}{\underbrace{g^{a}\ \text{mod}\ p\ \cdot g^{a}\ \text{mod}\ p\ \cdots \ g^{a}\ \text{mod}\ p}})\ \text{mod}\ p \\
+    &= (g^{a}\ \text{mod}\ p)^{b}\ \text{mod}\ p
+\end{aligned}
+$$
 
 
 
-1. 算法验证 : $\begin{align}    K&=B^{a}\ mod\ p=A^{b}\ mod\ p \\    &=(g^{b}\ mod\ p)^{a}\ mod\ p = (g^{a}\ mod\ p)^{b}\ mod\ p \\    &=g^{b\cdot a}\ mod \ p=g^{a\cdot b}\ mod \ p    \end{align}$
+1. 算法验证：
+
+$$
+\begin{aligned}
+    K &= B^{a}\ \text{mod}\ p = A^{b}\ \text{mod}\ p \\
+    &= (g^{b}\ \text{mod}\ p)^{a}\ \text{mod}\ p = (g^{a}\ \text{mod}\ p)^{b}\ \text{mod}\ p \\
+    &= g^{b\cdot a}\ \text{mod}\ p = g^{a\cdot b}\ \text{mod}\ p
+\end{aligned}
+$$
 
 
 
