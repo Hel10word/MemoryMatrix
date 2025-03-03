@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/TEMPLATE.md",
+                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TEMPLATE"
+              "title": "一致性哈希"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
+                "file": "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DH"
+              "title": "公开密钥加密"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#status/review",
+                "query": "tag:#1、Node",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 281.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
+                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DH 的反向链接列表"
+              "title": "一致性哈希 的反向链接列表"
             }
           },
           {
@@ -177,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ThoughtFragments/2025-02-28.md",
+                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-28 的大纲"
+              "title": "一致性哈希 的大纲"
             }
           },
           {
@@ -200,7 +199,8 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -215,52 +215,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e82119f45d8e750c",
+  "active": "f9b46d3fa816d76c",
   "lastOpenFiles": [
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/无标题-2024-11-07-1729.excalidraw.crswap",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/无标题-2024-11-07-1729.excalidraw",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希5.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希2.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希1.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子6.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子5.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子4.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子3.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子2.png",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw.1.crswap",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw.crswap",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments",
+    "KnowledgeMaps/标签体系.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
+    "_templates/TEMPLATE.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希",
+    "KnowledgeMatrix/ComputerScience/Algorithms",
+    "KnowledgeMaps/DataView.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
+    "未命名.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
     "LifeDashboard/TODO/TODO.md",
     "README.md",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "ThoughtFragments/2025-02-28.md",
-    "KnowledgeMaps/标签体系.md",
     "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography/Public-keyCryptography.md",
     "output.txt",
-    "_templates/TEMPLATE.md",
     "KnowledgeMaps/Cryptography/Cryptography.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography",
     "KnowledgeMaps/Cryptography",
-    "KnowledgeMaps/密码学",
     "().md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/密钥交换算法/未命名",
     "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/SRP",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/ECDH",
     "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
     "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
     "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据封装过程详解.png",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/数据包的封装.png",
-    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/attachments/一个简单的HTTPS请求过程.png",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/简单的HTTPS请求过程.png",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/网络模型.png",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/attachments/OSI模型.png",
-    "未命名.md",
     "ThoughtFragments/2025-02-26.md",
-    "ThoughtFragments/未命名.md",
-    "123.md",
-    "11.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer架构.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/Transformer执行.gif",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/A-Survey-of-Large-Language-Models.png",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/attachments/LSTM.png"
+    "ThoughtFragments/未命名.md"
   ]
 }
