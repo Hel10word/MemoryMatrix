@@ -8,6 +8,7 @@ created: 2025-02-28T15:44
 author: hel10word
 status: published
 tags:
+  - status/published
   - psk
   - cryptography
 summary: 这是一段简短的摘要，描述文档的主要内容

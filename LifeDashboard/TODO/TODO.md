@@ -6,8 +6,9 @@ aliases:
 title: TODO
 created: 2025-02-26T18:13
 author: hel10word
-status: draft
-tags: 
+status: published
+tags:
+  - status/published
 summary: TODO
 ---
 
@@ -47,11 +48,35 @@ summary: TODO
 - [ ] 啥时候才能刷刷 CTF
 - [ ] 啥时候才能锻炼自己的意志力？
 - [ ] 啥时候才能好好看论文
+- [ ] 了解区块链 , 比特币 , 以太坊
+- [ ] 搭建服务集群
+    - [ ] k8s
+        - https://www.cnblogs.com/xuweiweiwoaini/p/13884112.html
+        - https://medium.com/analytics-vidhya/running-apache-spark-with-hdfs-on-kubernetes-cluster-f98d05ac2f15
+        - https://medium.datadriveninvestor.com/deploying-hadoop-in-kubernetes-via-helm-45acd1582a9f
+    - [ ] Eclipse-Theia IDE
+        - https://github.com/eclipse-theia/theia
+    - [ ] setup web
+        - https://theia-ide.org/docs/composing_applications/
+    - [ ] official
+        - https://theia-ide.org/
+
+
 ​
 ### Java 开发
 
 - [ ] 掌握 Java 语言高级特性 : 掌握多线程开发 , 网络编程 , 反射 , 字节码增强 , 常用类库原理 ,
 - [ ] 深入理解 JVM , 理解各种垃圾回收原理 , 能有效调优程序
+- [ ] Java NIO 的 空轮询 Epoll Bug
+- [ ] Netty框架
+	- [ ] [太详细了！终于有人把Netty原理架构讲解清楚了-阿里云开发者社区](https://developer.aliyun.com/article/1055214)
+	- [ ] [45 张图深度解析 Netty 架构与原理-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1754078)
+	- [ ] [netty| ProcessOn免费在线作图,在线流程图,在线思维导图](https://www.processon.com/view/link/662a1bcdb088ee0bab104f8b)
+	- [ ] [【Netty系列】Netty高性能架构设计以及光速入门_netty框架-CSDN博客](https://blog.csdn.net/weixin_40909461/article/details/138355959)
+	- [ ] [Netty整体架构解析 - MuXinu - 博客园](https://www.cnblogs.com/MuXinu/p/18091950)
+	- [ ] [Netty: Home](https://netty.io/)
+	- [ ] [史上最通俗Netty入门长文：基本介绍、环境搭建、动手实战-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1748761)
+	- [ ] [T's message of the day — the best is yet to come](https://t.motd.kr/)
 
 ### 架构设计
 
@@ -101,6 +126,7 @@ summary: TODO
 - [ ] 上 .onion 看看
 - [ ] 学习 unreal 中的资源
 - [ ] 啥时候才能看完买的书
+- [ ] 看看 [Yarr](http://127.0.0.1:7070/) 订阅的资源 
 
 ### 其他
 
