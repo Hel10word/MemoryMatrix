@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "一致性哈希"
+              "title": "网络数据包封装与传输"
             }
           },
           {
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "一致性哈希 的反向链接列表"
+              "title": "网络数据包封装与传输 的反向链接列表"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "一致性哈希 的大纲"
+              "title": "网络数据包封装与传输 的大纲"
             }
           },
           {
@@ -217,6 +217,9 @@
   },
   "active": "f9b46d3fa816d76c",
   "lastOpenFiles": [
+    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
+    "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw.crswap",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/无标题-2024-11-07-1729.excalidraw.crswap",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/无标题-2024-11-07-1729.excalidraw",
@@ -224,7 +227,6 @@
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希2.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希1.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子6.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子5.png",
@@ -249,14 +251,11 @@
     "README.md",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "ThoughtFragments/2025-02-28.md",
-    "KnowledgeMatrix/ComputerScience/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography/Public-keyCryptography.md",
     "output.txt",
     "KnowledgeMaps/Cryptography/Cryptography.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography",
-    "KnowledgeMaps/Cryptography",
     "().md",
-    "KnowledgeMatrix/ComputerScience/网络数据包封装与传输/网络数据包封装与传输.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
     "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
