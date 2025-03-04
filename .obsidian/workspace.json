@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "ThoughtFragments/2022/2022-08-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "网络数据包封装与传输"
+              "title": "2022-08-03"
             }
           },
           {
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "ThoughtFragments/2022/2022-08-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "网络数据包封装与传输 的反向链接列表"
+              "title": "2022-08-03 的反向链接列表"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
+                "file": "ThoughtFragments/2022/2022-08-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "网络数据包封装与传输 的大纲"
+              "title": "2022-08-03 的大纲"
             }
           },
           {
@@ -217,8 +217,23 @@
   },
   "active": "f9b46d3fa816d76c",
   "lastOpenFiles": [
-    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
+    "ThoughtFragments/2025-02-28.md",
+    "_templates/TEMPLATE.md",
+    "ThoughtFragments/2022/2022-08-03.md",
+    "ThoughtFragments/2021/2021-10-28.md",
+    "ThoughtFragments/2025",
+    "ThoughtFragments/新建文件夹",
+    "ThoughtFragments/2024",
+    "ThoughtFragments/2023",
+    "ThoughtFragments/2022",
+    "ThoughtFragments/2021",
+    "ThoughtFragments/2022-08-03.md",
+    "README.md",
+    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
+    "ThoughtFragments/2021-10-28.md",
+    "LifeDashboard/TODO/TODO.md",
     "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
+    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw.crswap",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/无标题-2024-11-07-1729.excalidraw.crswap",
@@ -234,33 +249,19 @@
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子3.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子2.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw.1.crswap",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments",
     "KnowledgeMaps/标签体系.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
-    "_templates/TEMPLATE.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希",
-    "KnowledgeMatrix/ComputerScience/Algorithms",
     "KnowledgeMaps/DataView.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
     "未命名.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
-    "LifeDashboard/TODO/TODO.md",
-    "README.md",
-    "WisdomVault/左耳朵耗子/左耳朵耗子.md",
-    "ThoughtFragments/2025-02-28.md",
     "KnowledgeMaps/Cryptography/Public-keyCryptography/Public-keyCryptography.md",
-    "output.txt",
     "KnowledgeMaps/Cryptography/Cryptography.md",
-    "KnowledgeMaps/Cryptography/Public-keyCryptography",
     "().md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
-    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md",
-    "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
-    "ThoughtFragments/2025-02-26.md",
-    "ThoughtFragments/未命名.md"
+    "KnowledgeMatrix/ComputerScience/NetworkSecurity/NetworkAttacks/ARP欺骗/ARP欺骗.md"
   ]
 }
