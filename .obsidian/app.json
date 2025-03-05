@@ -6,6 +6,6 @@
   "attachmentFolderPath": "./attachments",
   "uriCallbacks": false,
   "promptDelete": false,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "readableLineLength": false
 }

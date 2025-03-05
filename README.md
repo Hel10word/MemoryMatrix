@@ -27,7 +27,7 @@
 
 - Markdown : 所有内容使用Markdown格式存储
 
-- Obsidian : 主要知识管理工具，提供双向链接和图谱可视化
+- Obsidian : 主要知识管理工具 , 提供双向链接和图谱可视化
 
 - Git : 版本控制和跨设备同步
 
@@ -39,10 +39,11 @@
 
 ``` 
 MemoryMatrix/
+├── _scripts/                 # 脚本文件
 ├── _templates/               # 文档模板
 ├── .obsidian/                # obsidian 相关的数据
 ├── Knowledge Maps/           # 知识关联与导航
-│   └── [MOCs、索引与术语表]
+│   └── [MOCs , 索引与术语表]
 ├── KnowledgeMatrix/          # 结构化知识主体
 │   └── [按领域组织的各类知识]
 ├── ThoughtFragments/         # 日常思考与灵感记录
@@ -74,15 +75,15 @@ MemoryMatrix/
 ---
 id: "unique-id"                    # 知识点唯一标识符
 aliases: [别名1, 别名2]             # 文档的其他引用名称
-tags: [标签1, 标签2, 标签3]          # 标签列表，用于搜索和过滤
+tags: [标签1, 标签2, 标签3]          # 标签列表 , 用于搜索和过滤
 related: [文档1-id, 文档2-id]       # 相关文档ID
 title: "文档标题"                   # 文档的主标题
-datetime: 2024-06-08T19:49:00      # 创建日期，YYYY-MM-DDTHH:MM:SS格式
+datetime: 2024-06-08T19:49:00      # 创建日期 , YYYY-MM-DDTHH:MM:SS格式
 lastmod: 2024-06-08                # 最后修改日期
 author: "你的名字"                  # 作者名称
-categories: [主类别/子类别]          # 分类路径，反映目录结构
+categories: [主类别/子类别]          # 分类路径 , 反映目录结构
 status: draft|published|archived   # 文档状态 草稿/已发布/已归档
-summary: "这是一段简短的摘要，描述文档的主要内容" # 用于预览和搜索结果
+summary: "这是一段简短的摘要 , 描述文档的主要内容" # 用于预览和搜索结果
 toc: true                          # 是否显示目录
 ---
 
@@ -101,7 +102,7 @@ datetime: 2025-02-26T19:49
 lastmod: 2024-06-08
 author: hel10word
 status: draft
-summary: 这是一段简短的摘要，描述文档的主要内容
+summary: 这是一段简短的摘要 , 描述文档的主要内容
 toc: true
 ---
 
@@ -112,7 +113,7 @@ toc: true
 
 ## 📄 许可协议
 
-除特别注明外，本知识库内容采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可。
+除特别注明外 , 本知识库内容采用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可 .
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 <%*
-/* 模板版本：1.2 | 最后更新：2025-02-27 */
+/* 模板版本 : 1.2 | 最后更新 : 2025-02-27 */
 // 可以通过 https://www.uuidgenerator.net/version4 获取 或 https://www.uuidgenerator.net/api/guid
-// 生成UUID（兼容模式）
+// 生成UUID (兼容模式) 
 let uuid;
 try {
     uuid = crypto.randomUUID().trim();
@@ -56,7 +56,7 @@ created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm") %>
 author: hel10word
 status: <% selectedStatus %>
 tags: <% statusTags %>
-summary: <% await tp.system.prompt("请输入摘要（50字内）", "这是一段简短的摘要，描述文档的主要内容") %>
+summary: <% await tp.system.prompt("请输入摘要 (50字内) ", "这是一段简短的摘要 , 描述文档的主要内容") %>
 ---
 # <% tp.file.title %>
 
