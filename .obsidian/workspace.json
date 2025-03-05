@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DeepSeek"
+              "title": "README"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "，",
+                "query": "tag:#status/draft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DeepSeek 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -177,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DeepSeek 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -218,16 +218,19 @@
   },
   "active": "004821b39731f8b0",
   "lastOpenFiles": [
+    "_scripts/_config/md_normalizer.yml",
+    "_scripts/md_normalizer.py",
+    "_scripts/_config",
+    "LifeDashboard/TODO/TODO.md",
+    "README.md",
+    "KnowledgeMaps/标签体系.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "WisdomVault/亚瑟-阿伦的36个问题/亚瑟-阿伦的36个问题.md",
     "WisdomVault/亚瑟-阿伦的36个问题",
     "WisdomVault/亚瑟_阿伦的36个问题/亚瑟-阿伦的36个问题.md",
     "WisdomVault/亚瑟_阿伦的36个问题/亚瑟_阿伦的36个问题.md",
     "WisdomVault/亚瑟_阿伦的36个问题/亚瑟·阿伦的36个问题.md",
     "WisdomVault/亚瑟_阿伦的36个问题",
-    "README.md",
-    "_scripts/_config/md_normalizer.yml",
-    "_scripts/_config",
-    "_scripts/md_normalizer.py",
     "_scripts/新建文本文档.txt",
     "_scripts",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC.md",
@@ -235,7 +238,6 @@
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
     "ThoughtFragments/2025-02-28.md",
-    "LifeDashboard/TODO/TODO.md",
     "_templates/TEMPLATE.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
@@ -244,16 +246,13 @@
     "ThoughtFragments/2021/2021-10-28.md",
     "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/未命名.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java",
     "KnowledgeMaps/DataView.md",
-    "KnowledgeMaps/标签体系.md",
     "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
     "ThoughtFragments/2022/2022-08-03.md",
     "ThoughtFragments/2025",
     "ThoughtFragments/2022-08-03.md",
-    "ThoughtFragments/2021-10-28.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希5.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",
