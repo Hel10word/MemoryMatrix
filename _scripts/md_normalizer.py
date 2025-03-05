@@ -218,7 +218,7 @@ class ValidationReport:
     def print_report(self):
         """打印验证报告"""
         if not self.has_issues():
-            logger.info("未发现任何问题，文档格式已符合规范!")
+            logger.info("未发现任何问题 , 文档格式已符合规范!")
             return
         
         logger.info("=== Markdown 文档规范化验证报告 ===")
@@ -319,7 +319,7 @@ class ValidationReport:
                          len([i for _, i in metadata_issues if i.tag and i.suggested_tag]))
         
         if fixable_count > 0:
-            logger.info(f"\n其中 {fixable_count} 个问题可自动修复，使用 --fix 选项来修复它们。")
+            logger.info(f"\n其中 {fixable_count} 个问题可自动修复 , 使用 --fix 选项来修复它们 .")
 
 class MarkdownNormalizer:
     def __init__(self, config_path=None):
@@ -336,7 +336,7 @@ class MarkdownNormalizer:
                 with open(self.config_path, 'r', encoding='utf-8') as f:
                     custom_config = yaml.safe_load(f)
                     if custom_config:
-                        # 直接使用配置文件，而不是合并
+                        # 直接使用配置文件 , 而不是合并
                         self.config = custom_config
                         logger.info(f"已加载配置文件: {self.config_path}")
             except Exception as e:
@@ -370,7 +370,7 @@ class MarkdownNormalizer:
         # 创建保护区域
         protected_ranges = []
         
-        # 保护区域的函数，记录起始和结束行
+        # 保护区域的函数 , 记录起始和结束行
         def protect_region(pattern, text, name_prefix, is_dotall=False):
             flags = re.DOTALL if is_dotall else 0
             
@@ -431,7 +431,7 @@ class MarkdownNormalizer:
                     # 找到这一行中所有此标点的位置
                     positions = [m.start() for m in re.finditer(re.escape(cn_punct), line)]
                     for pos in positions:
-                        # 提取上下文，展示问题标点的位置
+                        # 提取上下文 , 展示问题标点的位置
                         context_start = max(0, pos - 15)
                         context_end = min(len(line), pos + 15)
                         context = line[context_start:context_end]
@@ -540,7 +540,7 @@ class MarkdownNormalizer:
                 # 检查前面的字符是否已经是空格或特殊字符
                 prefix = ''
                 if before_space and before and before not in [' ', '\n', '\t', '\r'] and en_punct not in no_space_before:
-                    # 不在行首添加空格，且不在列表项标记后添加额外空格
+                    # 不在行首添加空格 , 且不在列表项标记后添加额外空格
                     if not (is_list_item and current_line_prefix.endswith(' ')):
                         line_start = protected_content.rfind('\n', 0, start)
                         if line_start == -1 or start - line_start > 1:
@@ -728,7 +728,7 @@ class MarkdownNormalizer:
         issues = []
         filename = os.path.basename(md_file_path)
         
-        # 如果是Excalidraw文件，检查是否在对应的md文件中被引用
+        # 如果是Excalidraw文件 , 检查是否在对应的md文件中被引用
         if filename.endswith(".excalidraw.md"):
             base_name = filename[:-3]  # 移除.md扩展名
             excalidraw_file = os.path.join(os.path.dirname(md_file_path), base_name)
@@ -826,7 +826,7 @@ class MarkdownNormalizer:
         return new_content
     
     def process_markdown_file(self, file_path, fix=False):
-        """处理单个Markdown文件，进行验证和修正"""
+        """处理单个Markdown文件 , 进行验证和修正"""
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -856,11 +856,11 @@ class MarkdownNormalizer:
             # 添加文件验证结果到报告
             self.report.add_file_result(file_result)
             
-            # 如果需要修复问题，且确实有问题需要修复
+            # 如果需要修复问题 , 且确实有问题需要修复
             if fix:
                 content_modified = False
                 
-                # 对于文件名问题，只记录警告，不自动修复
+                # 对于文件名问题 , 只记录警告 , 不自动修复
                 if filename_issues:
                     for issue in filename_issues:
                         if issue.suggested_name:
@@ -868,7 +868,7 @@ class MarkdownNormalizer:
                         else:
                             logger.warning(f"文件名问题: '{issue.filename}' 不符合命名规范")
                 
-                # 对于元数据问题，只记录警告，不自动修复
+                # 对于元数据问题 , 只记录警告 , 不自动修复
                 if has_yaml and metadata_issues:
                     for issue in metadata_issues:
                         if issue.tag and issue.suggested_tag:
@@ -876,7 +876,7 @@ class MarkdownNormalizer:
                         else:
                             logger.warning(issue.get_description())
                 
-                # 修复标点符号（这是唯一自动修复的部分）
+                # 修复标点符号 (这是唯一自动修复的部分) 
                 if punctuation_issues:
                     new_content = self.fix_punctuation(content, punctuation_issues)
                     if new_content != content:
@@ -891,7 +891,7 @@ class MarkdownNormalizer:
                         if len(punctuation_issues) > 5:
                             logger.info(f"  - ... 以及其他 {len(punctuation_issues) - 5} 处修改")
                 
-                # 只有当内容确实被修改时，才保存文件
+                # 只有当内容确实被修改时 , 才保存文件
                 if content_modified:
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(content)
@@ -911,7 +911,7 @@ class MarkdownNormalizer:
                     dir_result.attachment_issues = attachment_issues
                     self.report.add_directory_result(dir_result)
                     
-                    # 对于附件问题，只记录警告，不自动修复
+                    # 对于附件问题 , 只记录警告 , 不自动修复
                     if fix and attachment_issues:
                         for issue in attachment_issues:
                             if issue.suggested_name:
@@ -950,7 +950,7 @@ class MarkdownNormalizer:
                     dir_result.directory_issues = directory_issues
                     self.report.add_directory_result(dir_result)
                     
-                    # 对于目录名问题，只记录警告，不自动修复
+                    # 对于目录名问题 , 只记录警告 , 不自动修复
                     if fix:
                         for issue in directory_issues:
                             if issue.suggested_name:
