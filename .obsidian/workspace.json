@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "15feaa82489a0989",
+        "id": "120fcc636b25cea0",
         "type": "tabs",
         "children": [
           {
-            "id": "6ee87aacf2361115",
+            "id": "e2b5ee7b2d8a1f94",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LifeDashboard/TODO/TODO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "004821b39731f8b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#status/draft",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 200
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -177,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -199,13 +159,23 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "a12fa7a80303307b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 371.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,19 +183,27 @@
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "004821b39731f8b0",
+  "active": "e2b5ee7b2d8a1f94",
   "lastOpenFiles": [
+    "_templates/TEMPLATE.md",
+    "LifeDashboard/工作常用/工作常用.md",
+    "LifeDashboard/TODO/TODO.md",
+    "KnowledgeMaps/标签体系.md",
+    "KnowledgeMaps/DataView.md",
+    "ThoughtFragments/2021/2021-10-28.md",
+    "WisdomVault/脚本库/脚本库.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+    "WisdomVault/脚本库",
+    "README.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/excalidraw.excalidraw",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/1.excalidraw",
     "_scripts/_config/md_normalizer.yml",
     "_scripts/md_normalizer.py",
     "_scripts/_config",
-    "LifeDashboard/TODO/TODO.md",
-    "README.md",
-    "KnowledgeMaps/标签体系.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "WisdomVault/亚瑟-阿伦的36个问题/亚瑟-阿伦的36个问题.md",
     "WisdomVault/亚瑟-阿伦的36个问题",
@@ -236,24 +214,17 @@
     "_scripts/新建文本文档.txt",
     "_scripts",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Go",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
     "ThoughtFragments/2025-02-28.md",
-    "_templates/TEMPLATE.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "ThoughtFragments/2021/2021-10-28.md",
     "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/未命名.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java",
-    "KnowledgeMaps/DataView.md",
     "WisdomVault/亚瑟·阿伦的36个问题/亚瑟·阿伦的36个问题.md",
     "ThoughtFragments/2022/2022-08-03.md",
-    "ThoughtFragments/2022-08-03.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希5.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",

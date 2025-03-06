@@ -113,7 +113,7 @@ summary: TODO
 
 ### 生活
 
-- [ ] 每周三次健身
+- [ ] 每周三次健身 (周二 , 周三 , 周四)
     - [ ] 15分钟 10 挡 椭圆机
     - [ ] 4 * 12 个 蝴蝶夹胸
     - [ ] 4 * 20 个 哑铃深蹲
@@ -133,10 +133,7 @@ summary: TODO
 - [ ]  啥时候才能看完 program think 的博客 ? ps : 最好看看相关评论
     - [ ] Paul 语言可以看看
     - [ ] Lisp 语言可以看看
-    - [ ] 看评论有感
-    
-    - [关于择偶](https://program-think.blogspot.com/2019/12/Time-and-Life.html?comment=1577804294446#1577804294446)
-    
+    - [ ] 看评论有感 [关于择偶](https://program-think.blogspot.com/2019/12/Time-and-Life.html?comment=1577804294446#1577804294446)
     ```
     
       1 , 价值观  
@@ -184,14 +181,10 @@ summary: TODO
     ```
 
 
-
-
-
 ---
 
 
 太多太多没做的事 , 时间不够 .好多东西看了 , 也总结过 , 但是还是容易忘记 , 我对相关知识的记忆还停留再重复的程度 , 没有上升到完全理解的程度 , 导致不太常用的知识慢慢就被淡忘了!!!!
-
 
 
 为了更好地[理解]马列的著作 , 俺个人推荐如下几个人的著作 : 
@@ -204,7 +197,6 @@ summary: TODO
 第三名 : 乔治·奥威尔的 [<1984>](https://zh.wikipedia.org/wiki/%E4%B8%80%E4%B9%9D%E5%85%AB%E5%9B%9B) .
 第四名 : 马尔克斯的 [<百年孤独>](https://zh.wikipedia.org/wiki/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC) .
 第五名 : 托妮·莫里森的 [<宠儿>](https://zh.wikipedia.org/wiki/%E5%AE%A0%E5%84%BF) 约翰·斯坦贝克(John Steinbeck) , 欧内斯特·海明威(Ernest Hemingway)和威廉·福克纳(William Faulkner)所写的七本书获得了提名 .詹姆斯·鲍德温(James Baldwin) , 玛格丽特·阿特伍德和弗吉尼亚·伍尔夫(Virginia Woolf)有五本书获得提名 .
-
 
 
 

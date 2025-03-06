@@ -7,5 +7,14 @@
   "uriCallbacks": false,
   "promptDelete": false,
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "focusNewTab": false,
+  "livePreview": false,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "visible",
+  "foldHeading": false,
+  "foldIndent": false,
+  "spellcheck": false,
+  "smartIndentList": false,
+  "useTab": false
 }
