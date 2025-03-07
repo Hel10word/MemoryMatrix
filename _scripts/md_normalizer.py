@@ -557,9 +557,9 @@ class MarkdownNormalizer:
         
         # 处理可能产生的多余空格
         # 1. 替换多个连续空格为单个空格
-        protected_content = re.sub(r' {2,}', ' ', protected_content)
+        # protected_content = re.sub(r' {2,}', ' ', protected_content)
         # 2. 删除行首空格
-        protected_content = re.sub(r'\n +', '\n', protected_content)
+        # protected_content = re.sub(r'\n +', '\n', protected_content)
         # 3. 删除行尾空格
         protected_content = re.sub(r' +\n', '\n', protected_content)
         # 4. 修复列表项后的多余空格：确保列表项后只有一个空格

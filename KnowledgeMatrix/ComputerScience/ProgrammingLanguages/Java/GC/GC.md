@@ -9,14 +9,13 @@ author: hel10word
 status: draft
 tags:
   - status/draft
-  - gc
   - domain/programming
+  - gc
+  - java
 summary: 这是一段简短的摘要 , 描述文档的主要内容
 ---
+
 # GC
-
-
-
 
 | 收集器                | 作用区域 | 采用算法        | 运行方式 | 适用场景                           |
 | ------------------ | ---- | ----------- | ---- | ------------------------------ |

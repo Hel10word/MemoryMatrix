@@ -32,7 +32,7 @@
   "diffStyle": "split",
   "lineAuthor": {
     "show": true,
-    "followMovement": "all-commits",
+    "followMovement": "inactive",
     "authorDisplay": "hide",
     "showCommitHash": false,
     "dateTimeFormatOptions": "date",
@@ -50,7 +50,7 @@
       "b": 104
     },
     "textColorCss": "var(--text-muted)",
-    "ignoreWhitespace": false,
+    "ignoreWhitespace": true,
     "gutterSpacingFallbackLength": 10,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"

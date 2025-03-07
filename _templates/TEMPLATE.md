@@ -55,9 +55,11 @@ title: <% tp.file.title %>
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm") %>
 author: hel10word
 status: <% selectedStatus %>
-tags: <% statusTags %>
+tags: 
+  - <% statusTags %>
 summary: <% await tp.system.prompt("请输入摘要 (50字内) ", "这是一段简短的摘要 , 描述文档的主要内容") %>
 ---
+
 # <% tp.file.title %>
 
 
