@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4562cf2fd9af26f5",
+        "id": "e7d161c61a87a7c3",
         "type": "tabs",
         "children": [
           {
-            "id": "4708dfb60a8792a9",
+            "id": "65d8861c64fa34d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "JVM"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 299.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +202,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4708dfb60a8792a9",
+  "active": "65d8861c64fa34d4",
   "lastOpenFiles": [
+    "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
+    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/无标题-2024-11-07-1729.excalidraw",
+    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/排序算法/排序算法.md",
+    "KnowledgeMaps/DataView.md",
+    "KnowledgeMaps/标签体系.md",
+    "LifeDashboard/工作常用/工作常用.md",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC/GC.md",
+    "README.md",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "WisdomVault/亚瑟-阿伦的36个问题/亚瑟-阿伦的36个问题.md",
     "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
@@ -211,24 +226,10 @@
     "ThoughtFragments/2022/2022-08-03.md",
     "ThoughtFragments/2021/2021-10-28.md",
     "LifeDashboard/TODO/TODO.md",
-    "LifeDashboard/工作常用/工作常用.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC/GC.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/基础/基础.md",
-    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/排序算法/排序算法.md",
-    "KnowledgeMaps/标签体系.md",
-    "KnowledgeMaps/DataView.md",
-    "_templates/TEMPLATE.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/jvm运行时数据区.png",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/MySQL执行过程.png",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/excalidraw.excalidraw",
@@ -239,11 +240,9 @@
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/excalidraw.excalidraw",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/Pasted image 20250306160601.png",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments",
-    "README.md",
     "WisdomVault/武汉2024年强酸电池行情/attachments/~$武汉2024年强酸电池行情.xlsx",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/基础",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希5.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",
