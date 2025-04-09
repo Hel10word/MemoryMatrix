@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
-                "mode": "preview",
+                "file": "WisdomVault/神农架-攻略/神龙架-攻略.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "JVM"
+              "title": "神龙架-攻略"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 289.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
+                "file": "WisdomVault/神农架-攻略/神龙架-攻略.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MySQL 的大纲"
+              "title": "神龙架-攻略 的大纲"
             }
           },
           {
@@ -186,11 +186,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +202,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65d8861c64fa34d4",
+  "active": "47d12f97ea5695c9",
   "lastOpenFiles": [
+    "WisdomVault/神农架-攻略/attachments/2024-10出游路线.png",
+    "WisdomVault/神农架-攻略/attachments/画廊谷.png",
+    "WisdomVault/神农架-攻略/attachments/天燕景区.png",
+    "WisdomVault/神农架-攻略/attachments/官门山.png",
+    "WisdomVault/神农架-攻略/神龙架-攻略.md",
+    "WisdomVault/神农架-攻略/attachments/神农坛.png",
+    "WisdomVault/神农架-攻略/attachments/天生桥2.png",
+    "WisdomVault/神农架-攻略/attachments/天生桥1.png",
+    "WisdomVault/神农架-攻略/attachments/大九湖-时间段.png",
+    "WisdomVault/神农架-攻略/attachments/大九湖-地图.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-太子垭.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-板壁岩.png",
+    "WisdomVault/神农架-攻略/attachments",
+    "LifeDashboard/跳伞/跳伞.md",
+    "WisdomVault/神农架-攻略",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+    "LifeDashboard/武汉买房",
+    "LifeDashboard/跳伞",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/无标题-2024-11-07-1729.excalidraw",
     "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
     "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
     "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
     "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
@@ -216,7 +234,6 @@
     "KnowledgeMaps/DataView.md",
     "KnowledgeMaps/标签体系.md",
     "LifeDashboard/工作常用/工作常用.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC/GC.md",
     "README.md",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
@@ -228,26 +245,10 @@
     "LifeDashboard/TODO/TODO.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/基础/基础.md",
     "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/jvm运行时数据区.png",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/MySQL执行过程.png",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/excalidraw.excalidraw",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/Pasted image 20250306162651.png",
     "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments",
     "KnowledgeMatrix/ComputerScience/Database/MySQL",
     "KnowledgeMatrix/ComputerScience/Database",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/excalidraw.excalidraw",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/Pasted image 20250306160601.png",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments",
-    "WisdomVault/武汉2024年强酸电池行情/attachments/~$武汉2024年强酸电池行情.xlsx",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/基础",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希5.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希4.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希3.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希2.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希1.png",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/attachments/一致性哈希例子6.png"
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/attachments/excalidraw.excalidraw"
   ]
 }
