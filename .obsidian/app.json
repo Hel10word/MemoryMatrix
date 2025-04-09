@@ -9,7 +9,7 @@
   "showLineNumber": true,
   "readableLineLength": false,
   "focusNewTab": false,
-  "livePreview": false,
+  "livePreview": true,
   "strictLineBreaks": true,
   "propertiesInDocument": "visible",
   "foldHeading": false,

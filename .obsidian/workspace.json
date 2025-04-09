@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c4e516a50858b68",
+        "id": "37d41d4f598a08e5",
         "type": "tabs",
         "children": [
           {
-            "id": "166bcc308310293e",
+            "id": "0821d63b6f28a9d2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -187,13 +188,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47d12f97ea5695c9",
+  "active": "0821d63b6f28a9d2",
   "lastOpenFiles": [
+    "LifeDashboard/跳伞/跳伞.md",
     "WisdomVault/去金融化与超金融化/去金融化与超金融化.md",
     "ThoughtFragments/2025-02-28.md",
     "WisdomVault/去金融化与超金融化/去金融化与超金融化",
     "WisdomVault/去金融化与超金融化",
-    "LifeDashboard/跳伞/跳伞.md",
     "WisdomVault/神农架-攻略/神龙架-攻略.md",
     "WisdomVault/神农架-攻略/attachments/出游路线-20241003.png",
     "WisdomVault/神农架-攻略/attachments/画廊谷.png",
