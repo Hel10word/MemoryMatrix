@@ -186,7 +186,7 @@ summary: TODO
 ---
 
 
-太多太多没做的事 , 时间不够 .好多东西看了 , 也总结过 , 但是还是容易忘记 , 我对相关知识的记忆还停留再重复的程度 , 没有上升到完全理解的程度 , 导致不太常用的知识慢慢就被淡忘了!!!!
+太多太多没做的事 , 时间不够 . 好多东西看了 , 也总结过 , 但是还是容易忘记 , 我对相关知识的记忆还停留再重复的程度 , 没有上升到完全理解的程度 , 导致不太常用的知识慢慢就被淡忘了!!!!
 
 
 为了更好地[理解]马列的著作 , 俺个人推荐如下几个人的著作 : 
@@ -194,11 +194,16 @@ summary: TODO
 
 
 <纽约时报> 读者评选出过去 125 年内出版的 [最佳书籍](https://cn.nytimes.com/culture/20211230/best-book-winners/) : 
+
 第一名 : 哈波·李的 [<杀死一只知更鸟>](https://zh.wikipedia.org/wiki/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F) .
+
 第二名 : 托尔金的 [<魔戒>](https://zh.wikipedia.org/wiki/%E9%AD%94%E6%88%92) .
+
 第三名 : 乔治·奥威尔的 [<1984>](https://zh.wikipedia.org/wiki/%E4%B8%80%E4%B9%9D%E5%85%AB%E5%9B%9B) .
+
 第四名 : 马尔克斯的 [<百年孤独>](https://zh.wikipedia.org/wiki/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC) .
-第五名 : 托妮·莫里森的 [<宠儿>](https://zh.wikipedia.org/wiki/%E5%AE%A0%E5%84%BF) 约翰·斯坦贝克(John Steinbeck) , 欧内斯特·海明威(Ernest Hemingway)和威廉·福克纳(William Faulkner)所写的七本书获得了提名 .詹姆斯·鲍德温(James Baldwin) , 玛格丽特·阿特伍德和弗吉尼亚·伍尔夫(Virginia Woolf)有五本书获得提名 .
+
+第五名 : 托妮·莫里森的 [<宠儿>](https://zh.wikipedia.org/wiki/%E5%AE%A0%E5%84%BF) 约翰·斯坦贝克 (John Steinbeck) , 欧内斯特·海明威 (Ernest Hemingway) 和 威廉·福克纳 (William Faulkner) 所写的七本书获得了提名 .詹姆斯·鲍德温 (James Baldwin) , 玛格丽特·阿特伍德 和 弗吉尼亚·伍尔夫 (Virginia Woolf) 有五本书获得提名 .
 
 
 

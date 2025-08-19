@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "37d41d4f598a08e5",
+        "id": "abeb570ea5432dcd",
         "type": "tabs",
         "children": [
           {
-            "id": "0821d63b6f28a9d2",
+            "id": "efcec5995d27d81e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LifeDashboard/TODO/TODO.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "TODO"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#status/review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 348.5
   },
   "right": {
     "id": "fdc9c9a5389934c4",
@@ -91,17 +104,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "LifeDashboard/TODO/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "TODO 的反向链接列表"
             }
           },
           {
@@ -139,12 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ThoughtFragments/2025-02-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-02-28 的大纲"
             }
           },
           {
@@ -160,23 +174,12 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "a12fa7a80303307b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,57 +187,57 @@
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "0821d63b6f28a9d2",
+  "active": "47d12f97ea5695c9",
   "lastOpenFiles": [
-    "LifeDashboard/跳伞/跳伞.md",
-    "WisdomVault/去金融化与超金融化/去金融化与超金融化.md",
-    "ThoughtFragments/2025-02-28.md",
-    "WisdomVault/去金融化与超金融化/去金融化与超金融化",
-    "WisdomVault/去金融化与超金融化",
     "WisdomVault/神农架-攻略/神龙架-攻略.md",
-    "WisdomVault/神农架-攻略/attachments/出游路线-20241003.png",
-    "WisdomVault/神农架-攻略/attachments/画廊谷.png",
-    "WisdomVault/神农架-攻略/attachments/天燕景区.png",
-    "WisdomVault/神农架-攻略/attachments/官门山.png",
-    "WisdomVault/神农架-攻略/attachments/神农坛.png",
-    "WisdomVault/神农架-攻略/attachments/天生桥2.png",
-    "WisdomVault/神农架-攻略/attachments/天生桥1.png",
-    "WisdomVault/神农架-攻略/attachments/大九湖-时间段.png",
-    "WisdomVault/神农架-攻略/attachments/大九湖-地图.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-金猴岭.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-神农谷.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-瞭望塔2.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-瞭望塔1.png",
+    "WisdomVault/神农架-攻略/attachments/神龙顶-板壁岩.png",
     "WisdomVault/神农架-攻略/attachments/神龙顶-太子垭.png",
+    "WisdomVault/神农架-攻略/attachments/神农顶-神龙顶.png",
+    "WisdomVault/神农架-攻略/attachments/神农顶-神农谷-风景2.png",
+    "WisdomVault/神农架-攻略/attachments/神农顶-神农谷-风景1.png",
     "WisdomVault/神农架-攻略/attachments",
     "WisdomVault/神农架-攻略",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
-    "LifeDashboard/武汉买房",
+    "WisdomVault/去金融化与超金融化/去金融化与超金融化.md",
+    "WisdomVault/去金融化与超金融化",
+    "LifeDashboard/跳伞/跳伞.md",
     "LifeDashboard/跳伞",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/无标题-2024-11-07-1729.excalidraw",
-    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/一致性哈希/一致性哈希.md",
-    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
-    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
-    "KnowledgeMatrix/ComputerScience/Algorithms/排序算法/排序算法.md",
-    "KnowledgeMaps/DataView.md",
-    "KnowledgeMaps/标签体系.md",
-    "LifeDashboard/工作常用/工作常用.md",
-    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC/GC.md",
     "README.md",
+    "LifeDashboard/TODO/TODO.md",
+    "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
+    "WisdomVault/武汉2024年强酸电池行情/attachments/~$武汉2024年强酸电池行情.xlsx",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/DH/DH.md",
+    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/excalidraw.excalidraw",
+    "KnowledgeMatrix/ComputerScience/Database/MySQL/MySQL.md",
+    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments",
+    "KnowledgeMatrix/ComputerScience/Database/MySQL",
+    "KnowledgeMatrix/ComputerScience/Database",
+    "_templates/TEMPLATE.md",
+    "_templates",
     "WisdomVault/左耳朵耗子/左耳朵耗子.md",
     "WisdomVault/亚瑟-阿伦的36个问题/亚瑟-阿伦的36个问题.md",
-    "WisdomVault/武汉2024年强酸电池行情/武汉2024年强酸电池行情.md",
     "ThoughtFragments/2022/2022-08-03.md",
     "ThoughtFragments/2021/2021-10-28.md",
-    "LifeDashboard/TODO/TODO.md",
+    "ThoughtFragments/2025-02-28.md",
+    "LifeDashboard/工作常用/工作常用.md",
     "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/基础/基础.md",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/JVM/JVM.md",
+    "KnowledgeMatrix/ComputerScience/ProgrammingLanguages/Java/GC/GC.md",
     "KnowledgeMatrix/ComputerScience/Network/网络数据包封装与传输/网络数据包封装与传输.md",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments/excalidraw.excalidraw",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL/attachments",
-    "KnowledgeMatrix/ComputerScience/Database/MySQL"
+    "KnowledgeMatrix/ComputerScience/Network/Web浏览器请求网页过程/Web浏览器请求网页过程.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/公开密钥加密/公开密钥加密.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/RSA/RSA.md",
+    "KnowledgeMatrix/ComputerScience/Cryptography/KeyExchange/PSK/PSK.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/什么是大语言模型/什么是大语言模型.md",
+    "KnowledgeMatrix/ComputerScience/ArtificialIntelligence/MachineLearning/DeepSeek/DeepSeek.md",
+    "KnowledgeMatrix/ComputerScience/Algorithms/排序算法/排序算法.md"
   ]
 }
